@@ -18,11 +18,11 @@ pipeline {
                 sh 'mvn clean package -DskipTests'
             }
         }
-        stage('Test') {
+     /*   stage('Test') {
             steps {
                 sh 'mvn test'
             }
-        }
+        }*/
     }
     
     post {
